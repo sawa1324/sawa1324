@@ -1,3 +1,4 @@
+
 name: Generate Contribution Snake
 
 on:
@@ -11,7 +12,6 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Generate snake
         uses: Platane/snk@v3
